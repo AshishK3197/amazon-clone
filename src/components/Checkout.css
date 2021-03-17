@@ -10,4 +10,12 @@
 }
 
 .checkout {
+	display: flex;
+	padding: 10px;
+	background-color: white;
+	height: max-content;
+}
+
+.checkout__left {
+	padding-right: 10px;
 }
