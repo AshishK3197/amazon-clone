@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Checkout from "./components/Checkout";
 import Home from "./components/Home";
+import Login from "./components/Login";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 						<Checkout />
 					</Route>
 					<Route path="/login">
-						<h1>Login Page</h1>
+						<Login />
 					</Route>
 					<Route path="/">
 						<Navbar />
