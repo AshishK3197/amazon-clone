@@ -13,7 +13,6 @@ function Navbar() {
 	};
 	// state,dispatch
 	const [{ basket, user }] = useStateValue();
-	console.log(basket);
 	return (
 		<nav className="navbar">
 			<Link to="/">

@@ -17,7 +17,6 @@ export const getBasketTotal = (basket) =>
 
 // data layer is state
 function reducer(state, action) {
-	console.log(action);
 	switch (action.type) {
 		case "SET_USER":
 			return {
@@ -26,7 +25,6 @@ function reducer(state, action) {
 			};
 		case "ADD_TO_BASKET":
 			// Logic for adding to basket
-			// console.log(...state.basket);
 			return { ...state, basket: [...state.basket, action.item] };
 		case "REMOVE_FROM_BASKET":
 			// Logic for removing from basket
